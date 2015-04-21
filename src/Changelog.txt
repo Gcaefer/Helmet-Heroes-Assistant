@@ -1,0 +1,133 @@
+//============================================================================================
+// Name        : Helmet Heroes Assistant
+// Author      : Caefer
+// Version     : 1.9
+// Copyright   : THIS IS A FREE DISTRIBUTION TO ALL. (Donations are accepted at http://tinyurl.com/qhf3d2w)
+// Description : Helmet Heroes Assistant
+//============================================================================================
+INSTALLATION
+Un-zip from folder and click on the Assistant.
+
+CHANGELOG
+v. 1.9
+- Major rework to the "Guide of Items by Level".
+ *can now specify a range of levels to list items for.
+ *merged level database into the items database.
+- Major rework of the search functionality.
+- Adjusted minor areas of all functions.
+- Added all the new items up to and including the 7.0 game update.
+- Added new monsters Bionic Bird, Titanium Vulture and Magmagon.
+- Fixed bug with Class Search that was not properly handling user inputs.
+- Fixed main menu crash when users entered a number that was not listed.
+- Brought back a working "Exit Program" functionality.
+- Fixed a bug in the "Guide of Items by Level" where users would get random streams of "No new items become available at that level".
+- Cut out around 500 lines of old code that are no longer necessary.
+
+- Sprinkled magic on everything.
+
+v. 1.8
+- Adjusted Cowboy Monster Fighting Guide calculation.
+- Added all new Stat Allocation Guide!
+- Added new items for the 5.6 game update
+- Adjusted Damage Calculator for new damage formulas in game.
+- Adjusted Monster Fighting guide for new damage formulas in game.
+- Modified original stat allocation guide to take new MP requirements into account.
+- Fixed several bugs and errors.
+- Removed "Quit" option as it broke at some point following the 1.3 update.
+
+v. 1.7.15 
+- Fixed random crash bug.
+
+v. 1.7.1
+- Added new items from the 5.33 game update.
+
+v. 1.7
+- Got rid of the need for secondary file.
+- Pet Purchase guide v1.0 is now usable.
+- Updated Search function.
+- Updated Monster Fighting Guide to include new class.
+- Updated items database to include items from game version 5.0 to current.
+- Fixed a scrolling bug with the initial menu.
+- Updated items in the levels list.
+
+v. 1.6.1
+- Squashed some bugs!
+- Search function fixes.
+ - Price search
+ - Name search
+-Merchant Calculator - first item not reading.
+
+v. 1.6
+- Minor bug fixes and other stuff.
+- Added the search feature (comprehensive)
+ - Includes search by:
+   *Name
+   *Shop
+   *Class
+   *Price Range
+- Added more stuff to the pet menu but still not finished.
+- Users can now type '/end' pretty much anywhere and return to the main menu
+
+v. 1.5.1
+- Fixed several bugs
+- Adjusted Monster Grinding Guide to work for everyone.
+
+v. 1.5
+- Fixed issue with blue sphere staff not being recognized by the Merchant Calculator.
+- Updated the level experience calculator to handle much larger numbers.
+- Added the new items to the Items by Level guide.
+- Icreased money counter capacity of the Merchant Calculator.
+- Added the new items to the items database (Includes pet helmets).
+- Added a pet database to get ready for the pet stuff. (Still working on this).
+
+v. 1.4.1
+- Fixed the scrolling glitch.
+- Fixed Price of Magnesium Legs.
+- Fixed Price of Knights Helmet.
+- Fixed the mispell error message in the Merchant Calculator.
+- Added books into the Merchant Calculator Database.
+- Set up a few things in preparation of the big update.
+
+v. 1.4
+- Added the Monster Damage Calculator to let the user know how much if any damage can be done to them by a given monster.
+- Added the Monster Fighting guide to give class and capability based suggestions of what monsters the user would gain the most benefit by fighting.
+- Fixed a bug where typing a mispelled or non existant entry into the merchant guide would not tell the user.
+- Improved the item catalog for faster searching.
+- Reduced size of code and parts to make a smaller program (byte-wise not content).
+- Added a monster library that will be used for many things in future updates.
+
+v. 1.3.1
+- Added an error catch for the first part of the Damage Calculator.
+- Added clarifying statements to reduce confusion.
+- Rearranged some code to allow for global use of the items database. (It can be used in more stuff later on.)
+
+v. 1.3
+- Added a brand new function, the Merchant Calculator.
+- Set up framework for a searchable item catalog that will give you information on any item, such as where to find it and it's price.
+- Implemented a new much faster item database.
+- Fixed the damage calculator (I really did this time).
+
+v. 1.2.1
+- *Failed* Fix for a calculation error in the damage calculator that was minimalizing the class damage stat.
+- Fixed some spelling errors in the item catalog.
+
+v. 1.2
+- Added a damage calculator so players can more easily calculate their minimum and maximum damage.
+- Updated both the Level Calculator and the Items by Level Guide.
+- Finished the Items by Level Guide through level 145.
+- Made some small adjustments to increase the speed of calculations of level and experience.
+
+v. 1.0.1
+- Changed the name from "Helmet Heroes Level Calculator" to "Helmet Heroes Assistant" (I may change this to "Helmet Heroes Helper, sounds a little catchier).
+- Added a menu.
+- Added an Items by Level guide to let you know what items you can get at what level. 
+- Only items up to level 10(for now).
+- Added a working quit option.
+- Fixed the looping so the program does not have to be restarted everytime it is used.
+
+v. 1.0
+- Initial setup of the program.
+- Called "Helmet Heroes Level Calculator."
+- Has a functioning level->experience calculator.
+- Implemented a quit option but it is mandatory and you cannot replay the program internally.
+- Does not do much else but it is a start.
