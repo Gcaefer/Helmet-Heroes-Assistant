@@ -391,7 +391,7 @@ int main() {
 	items[247]=item( 110,380000, 2,"relic helmet" , "travis");
 	items[248]=item( 94,213000, 2,"relic legs" , "travis");
 	items[249]=item( 28,9000, 2,"reptile wand" , "tiberius");
-	items[250]=item( 19,11000, 3,"rich man’s bow" , "snoop");
+	items[250]=item( 19,11000, 3,"rich manÂ’s bow" , "snoop");
 	items[251]=item( 90,250000, 1,"robot armor" , "viper");
 	items[252]=item( 98,365000, 1,"robot helmet" , "viper");
 	items[253]=item( 86,210000, 1,"robot legs" , "viper");
@@ -612,8 +612,8 @@ int main() {
 	items[468]=item( 0,55000, 4,"book of artillery", "lewis");
 	items[469]=item( 7,700, 0,"fishing pole", "milton");
 	items[470]=item( 6,30, 0,"fishing net", "payvault");
-//	items[471]=item( 0,100, 0,"palm tree seed", "craft-man");
-//	items[472]=item( 0,120, 0,"purple tree seed", "craft-man");
+	items[471]=item( 75, 72000, 4,"chemical armor", "geraldo");
+	items[472]=item( 75, 70000, 4,"chemical legs", "geraldo");
 //	items[473]=item( 0,250, 0,"weeping willow seed", "craft-man");
 //	items[474]=item( 0,180, 0,"dead tree seed", "craft-man");
 //	items[475]=item( 0,120, 0,"blue mushroom seed", "craft-man");
